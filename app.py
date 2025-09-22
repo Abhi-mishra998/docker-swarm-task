@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/api")
 def home():
     return jsonify({"msg": "Hello from backend"})
 

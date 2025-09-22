@@ -1,7 +1,7 @@
 
 Scenario
-You are a DevOps engineer at a startup. The team wants to containerize a simple Python Flask API and serve it behind an Nginx reverse proxy. The goal is to:
-
+You are a DevOps engineer at a startup. 
+The team wants to containerize a simple Python Flask API and serve it behind an Nginx reverse proxy. The goal is to:
 Build a Docker image for the backend API.
 Run the backend and frontend together using Docker Compose.
 Deploy the same app in Docker Swarm on a single node, scaling the backend to multiple replicas.
